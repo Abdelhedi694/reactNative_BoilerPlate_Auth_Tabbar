@@ -13,14 +13,21 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.boilerplate.firebaseauthapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.boilerplate.firebaseauthapp",
+      "googleServicesFile": "./google-services.json"
     },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
